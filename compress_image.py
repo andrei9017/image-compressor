@@ -48,7 +48,7 @@ def compress_one(src: Path, dst: Path):
         "quality": QUALITY,
         "optimize": True,
         "progressive": PROGRESSIVE,
-        "subsampling": 0,      # 4:4:4 chroma — sharper, no color bleed
+        "subsampling": 0,      
     }
 
     img.save(dst, **save_args)
